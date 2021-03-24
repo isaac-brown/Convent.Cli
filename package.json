@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/isaac-brown/Convent.Cli/issues"
   },
-  "homepage": "https://github.com/isaac-brown/Convent.Cli#readme"
+  "homepage": "https://github.com/isaac-brown/Convent.Cli#readme",
+  "dependencies": {
+    "@commitlint/cli": "^11.0.0"
+  }
 }

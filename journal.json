@@ -10,5 +10,8 @@
   },
   {
     "scriptName": "004-Add-Node.ps1"
+  },
+  {
+    "scriptName": "005-Add-Commitlint-Cli.ps1"
   }
 ]
