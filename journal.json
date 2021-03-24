@@ -4,5 +4,8 @@
   },
   {
     "scriptName": "002-Add-Editorconfig.ps1"
+  },
+  {
+    "scriptName": "003-Add-Directory-Build-props.ps1"
   }
 ]
