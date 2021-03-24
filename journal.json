@@ -16,5 +16,8 @@
   },
   {
     "scriptName": "006-Add-Husky.ps1"
+  },
+  {
+    "scriptName": "007-Add-Standard-Version.ps1"
   }
 ]
