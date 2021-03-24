@@ -19,5 +19,8 @@
   },
   {
     "scriptName": "007-Add-Standard-Version.ps1"
+  },
+  {
+    "scriptName": "008-Add-VsCode-Extension-Recommendations.ps1"
   }
 ]
