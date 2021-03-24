@@ -1,5 +1,8 @@
 [
   {
     "scriptName": "001-Add-License.ps1"
+  },
+  {
+    "scriptName": "002-Add-Editorconfig.ps1"
   }
 ]
