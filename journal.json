@@ -13,5 +13,8 @@
   },
   {
     "scriptName": "005-Add-Commitlint-Cli.ps1"
+  },
+  {
+    "scriptName": "006-Add-Husky.ps1"
   }
 ]
