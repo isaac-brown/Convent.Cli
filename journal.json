@@ -7,5 +7,8 @@
   },
   {
     "scriptName": "003-Add-Directory-Build-props.ps1"
+  },
+  {
+    "scriptName": "004-Add-Node.ps1"
   }
 ]
