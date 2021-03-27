@@ -22,5 +22,8 @@
   },
   {
     "scriptName": "008-Add-VsCode-Extension-Recommendations.ps1"
+  },
+  {
+    "scriptName": "009-Rename-license.ps1"
   }
 ]
