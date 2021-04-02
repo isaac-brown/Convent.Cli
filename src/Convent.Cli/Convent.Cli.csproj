@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Convent.Commits" Version="1.0.0" />
+    <PackageReference Include="LibGit2Sharp" Version="0.26.2" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20574.7" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Isaac Brown</Authors>
+    <PackageId>Convent.Cli</PackageId>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Command line interface for generating random commit messages.</Description>
+    <Copyright>Isaac Brown</Copyright>
+    <PackageLicenseUrl>License URL</PackageLicenseUrl>
+    <PackageProjectUrl>Project URL</PackageProjectUrl>
+    <RepositoryUrl>Repo URL</RepositoryUrl>
+    <RepositoryType>Convent.Cli</RepositoryType>
+    <PackageTags>Commits,Conventional,Generator,Random</PackageTags>
+  </PropertyGroup>
+
+</Project>
