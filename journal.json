@@ -25,5 +25,8 @@
   },
   {
     "scriptName": "009-Rename-license.ps1"
+  },
+  {
+    "scriptName": "010-Fix-version-rc.ps1"
   }
 ]

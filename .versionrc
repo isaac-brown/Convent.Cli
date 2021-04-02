@@ -1,9 +1,0 @@
-{
-    "bumpFiles": [
-      {
-        "filename": "Directory.Build.props",
-        "updater": "csproj-version-updater.js"
-      }
-    ]
-  }
-
