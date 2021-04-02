@@ -5,6 +5,7 @@
 namespace Convent.Cli
 {
     using System.CommandLine;
+    using System.IO;
     using System.Threading.Tasks;
 
     /// <summary>
@@ -24,6 +25,16 @@ namespace Convent.Cli
             var messageCommand = new Command(name: "message", description: "Create commit messages");
             messageCommand.AddCommitMessageCommands();
             rootCommand.AddCommand(messageCommand);
+
+            var commitCommand = new Command(name: "commit", description: "Create commits in a repository");
+            commitCommand.AddCommitSubCommands();
+
+            commitCommand.AddArgument(new Argument<DirectoryInfo>(
+                name: "path",
+                getDefaultValue: () => new DirectoryInfo(path: Directory.GetCurrentDirectory()),
+                description: "The path to the root of the git repository"));
+
+            rootCommand.AddCommand(commitCommand);
 
             rootCommand.AddGlobalOptions();
 
